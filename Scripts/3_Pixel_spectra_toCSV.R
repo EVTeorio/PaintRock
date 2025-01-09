@@ -33,11 +33,11 @@ extract_spectral_data <- function(path) {
     # Split metadata from filename using str_split() instead of separate()
     TrID <- str_split(imgs_names, "_")[[1]]  # Split by underscore (_)
     
-    # Convert to a data frame
-    TrID_df <- data.frame(Group = TrID[1], SpeciesID = TrID[2], TreeID = TrID[3])
+    # Extract tile number (assuming it's always the first part of the name)
+    tile_number <- TrID[1]  # The first part before the first underscore is the tile number
     
-    # Add the full file path to metadata
-    #TrID_df$File <- paste0(path, "/", imgs[x])
+    # Convert to a data frame (add tile number as a new column)
+    TrID_df <- data.frame(TileNumber = tile_number, Group = TrID[2], SpeciesID = TrID[3], TreeID = TrID[4])
     
     # Combine spectral data and metadata
     spectral_data <- cbind(TrID_df, spectral_data)
@@ -50,23 +50,17 @@ extract_spectral_data <- function(path) {
   final_df <- do.call(rbind, all_spectral_data)
   
   # Write the combined data to a CSV file
-  write.csv(final_df, file.path("C:/Users/PaintRock/Documents/Data processing/Hyperspectral/canopy_spectra/canopy_speclib.csv"),
+  write.csv(final_df, file.path("C:/Users/PaintRock/Documents/Data processing/Hyperspectral/canopy_speclib.csv"),
             row.names = FALSE)
   
   return(final_df)
 }
-
 
 # Set the directory path
 path <- "C:/Users/PaintRock/Documents/Data processing/Hyperspectral/canopy_spectra/Canopy_Rasters/"
 
 # Call the function to process the data and save it as CSV
 spectral_df <- extract_spectral_data(path)
-
-# View the first few rows of the resulting data frame
-head(spectral_df)
-
-
 
 
 

@@ -10,30 +10,36 @@ library(sf)
 HSI_img = "E:/Hyperspec Images/raw_32619_rd_rf_or"
 spruce_imgs <- c(HSI_img)
 
-canopies_path = "C:/Users/PaintRock/Documents/Data processing/Hyperspectral/Labeling"
+canopies_path = "C:/Users/PaintRock/Documents/Data processing/Hyperspectral/Labeling/Label Shapefiles"
 canopies_sites <- list.files(canopies_path, pattern = "*.shp$", full.names = TRUE)
 canopies <- lapply(canopies_sites, terra::vect)
 
 # Process each hyperspectral image
-lapply(1:length(spruce_imgs), function(img_idx) {
+lapply((1:2):length(spruce_imgs), function(img_idx) {
   
   # Load the hyperspectral image
   tst_img <- terra::rast(spruce_imgs[img_idx])
   tst_names <- names(tst_img)  # Get the band names
   
+  # Extract the hyperspectral image number from the file name (assuming the file name includes a numeric ID)
+  img_number <- gsub("\\D", "", basename(spruce_imgs[img_idx]))  # Extract only the digits
+  
   # Get the canopy polygons for the current image
   tst_quads <- canopies[[img_idx]]
   
   # Loop through each polygon and extract spectral data
-  lapply(1:length(tst_quads), function(i) {
+  lapply((1:2):length(tst_quads), function(i) {
     
     # Get the name of the polygon (assuming it's stored in a field called "name")
     polygon_name <- tst_quads[i]$name  # Change "name" to the correct field name in your shapefile
     
     # If the polygon name is NULL or missing, use a default name
     if (is.null(polygon_name)) {
-      polygon_name <- paste0("polygon_", i)
+      polygon_name <- paste0(i)
     }
+    
+    # Add the hyperspectral image number to the polygon name
+    polygon_name <- paste0(img_number, "_", polygon_name)
     
     # Crop the raster to the polygon boundary
     tst_crop <- terra::crop(tst_img, tst_quads[i])
@@ -44,7 +50,7 @@ lapply(1:length(spruce_imgs), function(img_idx) {
     # Set the band names
     names(tst_mask) <- tst_names
     
-    # Generate the output filename using the polygon name
+    # Generate the output filename using the modified polygon name
     output_filename <- paste0("C:/Users/PaintRock/Documents/Data processing/Hyperspectral/canopy_spectra/", polygon_name, ".ENVI")
     
     # Save the masked raster to a file
@@ -59,5 +65,4 @@ lapply(1:length(spruce_imgs), function(img_idx) {
   rm(tst_img, tst_quads)
   gc()
 })
-
 

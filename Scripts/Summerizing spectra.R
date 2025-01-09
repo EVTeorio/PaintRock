@@ -8,14 +8,12 @@ library(tidyr)
 
 # Read in the CSV file
 data <- read.csv(
-  "C:/Users/PaintRock/Documents/Data processing/Hyperspectral/canopy_spectra/canopy_speclib.csv")
-
-# Remove rows with NA values
-data_clean <- na.omit(data)
+  "C:/Users/PaintRock/Documents/Data processing/Hyperspectral/masked_speclib.csv")
+data <- data[,-1]
 
 
 #######Summerizing TreeID##########
-summary_data <- data_clean %>%
+summary_data <- data %>%
   group_by(TreeID) %>%                  
   summarise(
     across(4:330, ~ mean(.x, na.rm = TRUE), .names = "mean_{col}"),
@@ -41,17 +39,17 @@ ggplot(summary_data_long, aes(x = variable, y = mean_value, group = TreeID, colo
 
 ##plotting pixel variation per tree
 data_long <- summary_data %>%
-  select(SpeciesID, 4:332) %>%               
+  select(TreeID, 2:329) %>%               
   mutate(observation_id = row_number()) %>%    
-  pivot_longer(cols = 4:332,                  
+  pivot_longer(cols = 2:329,                  
                names_to = "variable", 
                values_to = "mean_value")
 
-ggplot(data_long %>% filter(SpeciesID == unique(data_long$SpeciesID)[7]), #Change which TreeID to look at
-       aes(x = variable, y = mean_value, group = observation_id, color = SpeciesID)) +
+ggplot(summary_data %>% filter(TreeID == unique(data_long$TreeID)[2]), #Change which TreeID to look at
+       aes(x = variable, y = mean_value, group = observation_id, color = TreeID)) +
   geom_line() +                             
   labs(title = "Line Plot of Mean Values for the First Species",
-       x = "Columns (5 to 332)",
+       x = "Columns (2 to 329)",
        y = "Mean Value") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +  
   theme(legend.position = "none")  

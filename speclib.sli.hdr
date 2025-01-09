@@ -1,0 +1,594 @@
+  [1] "TreeID"           "SpeciesID"        "mean_X400.049.nm" "mean_X401.901.nm" "mean_X403.753.nm"
+  [6] "mean_X405.605.nm" "mean_X407.457.nm" "mean_X409.309.nm" "mean_X411.161.nm" "mean_X413.013.nm"
+ [11] "mean_X414.865.nm" "mean_X416.717.nm" "mean_X418.569.nm" "mean_X420.421.nm" "mean_X422.273.nm"
+ [16] "mean_X424.125.nm" "mean_X425.977.nm" "mean_X427.829.nm" "mean_X429.681.nm" "mean_X431.533.nm"
+ [21] "mean_X433.385.nm" "mean_X435.237.nm" "mean_X437.089.nm" "mean_X438.941.nm" "mean_X440.793.nm"
+ [26] "mean_X442.645.nm" "mean_X444.497.nm" "mean_X446.349.nm" "mean_X448.201.nm" "mean_X450.053.nm"
+ [31] "mean_X451.905.nm" "mean_X453.757.nm" "mean_X455.609.nm" "mean_X457.461.nm" "mean_X459.313.nm"
+ [36] "mean_X461.165.nm" "mean_X463.017.nm" "mean_X464.869.nm" "mean_X466.721.nm" "mean_X468.573.nm"
+ [41] "mean_X470.425.nm" "mean_X472.277.nm" "mean_X474.129.nm" "mean_X475.981.nm" "mean_X477.833.nm"
+ [46] "mean_X479.685.nm" "mean_X481.537.nm" "mean_X483.389.nm" "mean_X485.241.nm" "mean_X487.093.nm"
+ [51] "mean_X488.945.nm" "mean_X490.797.nm" "mean_X492.649.nm" "mean_X494.501.nm" "mean_X496.353.nm"
+ [56] "mean_X498.205.nm" "mean_X500.057.nm" "mean_X501.909.nm" "mean_X503.761.nm" "mean_X505.613.nm"
+ [61] "mean_X507.465.nm" "mean_X509.317.nm" "mean_X511.169.nm" "mean_X513.021.nm" "mean_X514.873.nm"
+ [66] "mean_X516.725.nm" "mean_X518.577.nm" "mean_X520.429.nm" "mean_X522.281.nm" "mean_X524.133.nm"
+ [71] "mean_X525.985.nm" "mean_X527.837.nm" "mean_X529.689.nm" "mean_X531.541.nm" "mean_X533.393.nm"
+ [76] "mean_X535.245.nm" "mean_X537.097.nm" "mean_X538.949.nm" "mean_X540.801.nm" "mean_X542.653.nm"
+ [81] "mean_X544.505.nm" "mean_X546.357.nm" "mean_X548.209.nm" "mean_X550.061.nm" "mean_X551.913.nm"
+ [86] "mean_X553.765.nm" "mean_X555.617.nm" "mean_X557.469.nm" "mean_X559.321.nm" "mean_X561.173.nm"
+ [91] "mean_X563.025.nm" "mean_X564.877.nm" "mean_X566.729.nm" "mean_X568.581.nm" "mean_X570.433.nm"
+ [96] "mean_X572.285.nm" "mean_X574.137.nm" "mean_X575.989.nm" "mean_X577.841.nm" "mean_X579.693.nm"
+[101] "mean_X581.545.nm" "mean_X583.397.nm" "mean_X585.249.nm" "mean_X587.101.nm" "mean_X588.953.nm"
+[106] "mean_X590.805.nm" "mean_X592.657.nm" "mean_X594.509.nm" "mean_X596.361.nm" "mean_X598.213.nm"
+[111] "mean_X600.065.nm" "mean_X601.917.nm" "mean_X603.769.nm" "mean_X605.621.nm" "mean_X607.473.nm"
+[116] "mean_X609.325.nm" "mean_X611.177.nm" "mean_X613.029.nm" "mean_X614.881.nm" "mean_X616.733.nm"
+[121] "mean_X618.585.nm" "mean_X620.437.nm" "mean_X622.289.nm" "mean_X624.141.nm" "mean_X625.993.nm"
+[126] "mean_X627.845.nm" "mean_X629.697.nm" "mean_X631.549.nm" "mean_X633.401.nm" "mean_X635.253.nm"
+[131] "mean_X637.105.nm" "mean_X638.957.nm" "mean_X640.809.nm" "mean_X642.661.nm" "mean_X644.513.nm"
+[136] "mean_X646.365.nm" "mean_X648.217.nm" "mean_X650.069.nm" "mean_X651.921.nm" "mean_X653.773.nm"
+[141] "mean_X655.625.nm" "mean_X657.477.nm" "mean_X659.329.nm" "mean_X661.181.nm" "mean_X663.033.nm"
+[146] "mean_X664.885.nm" "mean_X666.737.nm" "mean_X668.589.nm" "mean_X670.441.nm" "mean_X672.293.nm"
+[151] "mean_X674.145.nm" "mean_X675.997.nm" "mean_X677.849.nm" "mean_X679.701.nm" "mean_X681.553.nm"
+[156] "mean_X683.405.nm" "mean_X685.257.nm" "mean_X687.109.nm" "mean_X688.961.nm" "mean_X690.813.nm"
+[161] "mean_X692.665.nm" "mean_X694.517.nm" "mean_X696.369.nm" "mean_X698.221.nm" "mean_X700.073.nm"
+[166] "mean_X701.925.nm" "mean_X703.777.nm" "mean_X705.629.nm" "mean_X707.481.nm" "mean_X709.333.nm"
+[171] "mean_X711.185.nm" "mean_X713.037.nm" "mean_X714.889.nm" "mean_X716.741.nm" "mean_X718.593.nm"
+[176] "mean_X720.445.nm" "mean_X722.297.nm" "mean_X724.149.nm" "mean_X726.001.nm" "mean_X727.853.nm"
+[181] "mean_X729.705.nm" "mean_X731.557.nm" "mean_X733.409.nm" "mean_X735.261.nm" "mean_X737.113.nm"
+[186] "mean_X738.965.nm" "mean_X740.817.nm" "mean_X742.669.nm" "mean_X744.521.nm" "mean_X746.373.nm"
+[191] "mean_X748.225.nm" "mean_X750.077.nm" "mean_X751.929.nm" "mean_X753.781.nm" "mean_X755.633.nm"
+[196] "mean_X757.485.nm" "mean_X759.337.nm" "mean_X761.189.nm" "mean_X763.041.nm" "mean_X764.893.nm"
+[201] "mean_X766.745.nm" "mean_X768.597.nm" "mean_X770.449.nm" "mean_X772.301.nm" "mean_X774.153.nm"
+[206] "mean_X776.005.nm" "mean_X777.857.nm" "mean_X779.709.nm" "mean_X781.561.nm" "mean_X783.413.nm"
+[211] "mean_X785.265.nm" "mean_X787.117.nm" "mean_X788.969.nm" "mean_X790.821.nm" "mean_X792.673.nm"
+[216] "mean_X794.525.nm" "mean_X796.377.nm" "mean_X798.229.nm" "mean_X800.081.nm" "mean_X801.933.nm"
+[221] "mean_X803.785.nm" "mean_X805.637.nm" "mean_X807.489.nm" "mean_X809.341.nm" "mean_X811.193.nm"
+[226] "mean_X813.045.nm" "mean_X814.897.nm" "mean_X816.749.nm" "mean_X818.601.nm" "mean_X820.453.nm"
+[231] "mean_X822.305.nm" "mean_X824.157.nm" "mean_X826.009.nm" "mean_X827.861.nm" "mean_X829.713.nm"
+[236] "mean_X831.565.nm" "mean_X833.417.nm" "mean_X835.269.nm" "mean_X837.121.nm" "mean_X838.973.nm"
+[241] "mean_X840.825.nm" "mean_X842.677.nm" "mean_X844.529.nm" "mean_X846.381.nm" "mean_X848.233.nm"
+[246] "mean_X850.085.nm" "mean_X851.937.nm" "mean_X853.789.nm" "mean_X855.641.nm" "mean_X857.493.nm"
+[251] "mean_X859.345.nm" "mean_X861.197.nm" "mean_X863.049.nm" "mean_X864.901.nm" "mean_X866.753.nm"
+[256] "mean_X868.605.nm" "mean_X870.457.nm" "mean_X872.309.nm" "mean_X874.161.nm" "mean_X876.013.nm"
+[261] "mean_X877.865.nm" "mean_X879.717.nm" "mean_X881.569.nm" "mean_X883.421.nm" "mean_X885.273.nm"
+[266] "mean_X887.125.nm" "mean_X888.977.nm" "mean_X890.829.nm" "mean_X892.681.nm" "mean_X894.533.nm"
+[271] "mean_X896.385.nm" "mean_X898.237.nm" "mean_X900.089.nm" "mean_X901.941.nm" "mean_X903.793.nm"
+[276] "mean_X905.645.nm" "mean_X907.497.nm" "mean_X909.349.nm" "mean_X911.201.nm" "mean_X913.053.nm"
+[281] "mean_X914.905.nm" "mean_X916.757.nm" "mean_X918.609.nm" "mean_X920.461.nm" "mean_X922.313.nm"
+[286] "mean_X924.165.nm" "mean_X926.017.nm" "mean_X927.869.nm" "mean_X929.721.nm" "mean_X931.573.nm"
+[291] "mean_X933.425.nm" "mean_X935.277.nm" "mean_X937.129.nm" "mean_X938.981.nm" "mean_X940.833.nm"
+[296] "mean_X942.685.nm" "mean_X944.537.nm" "mean_X946.389.nm" "mean_X948.241.nm" "mean_X950.093.nm"
+[301] "mean_X951.945.nm" "mean_X953.797.nm" "mean_X955.649.nm" "mean_X957.501.nm" "mean_X959.353.nm"
+[306] "mean_X961.205.nm" "mean_X963.057.nm" "mean_X964.909.nm" "mean_X966.761.nm" "mean_X968.613.nm"
+[311] "mean_X970.465.nm" "mean_X972.317.nm" "mean_X974.169.nm" "mean_X976.021.nm" "mean_X977.873.nm"
+[316] "mean_X979.725.nm" "mean_X981.577.nm" "mean_X983.429.nm" "mean_X985.281.nm" "mean_X987.133.nm"
+[321] "mean_X988.985.nm" "mean_X990.837.nm" "mean_X992.689.nm" "mean_X994.541.nm" "mean_X996.393.nm"
+[326] "mean_X998.245.nm" "mean_X1000.1.nm"  "mean_X1001.95.nm" "count"           
+  [1] "TreeID"           "SpeciesID"        "mean_X400.049.nm" "mean_X401.901.nm" "mean_X403.753.nm"
+  [6] "mean_X405.605.nm" "mean_X407.457.nm" "mean_X409.309.nm" "mean_X411.161.nm" "mean_X413.013.nm"
+ [11] "mean_X414.865.nm" "mean_X416.717.nm" "mean_X418.569.nm" "mean_X420.421.nm" "mean_X422.273.nm"
+ [16] "mean_X424.125.nm" "mean_X425.977.nm" "mean_X427.829.nm" "mean_X429.681.nm" "mean_X431.533.nm"
+ [21] "mean_X433.385.nm" "mean_X435.237.nm" "mean_X437.089.nm" "mean_X438.941.nm" "mean_X440.793.nm"
+ [26] "mean_X442.645.nm" "mean_X444.497.nm" "mean_X446.349.nm" "mean_X448.201.nm" "mean_X450.053.nm"
+ [31] "mean_X451.905.nm" "mean_X453.757.nm" "mean_X455.609.nm" "mean_X457.461.nm" "mean_X459.313.nm"
+ [36] "mean_X461.165.nm" "mean_X463.017.nm" "mean_X464.869.nm" "mean_X466.721.nm" "mean_X468.573.nm"
+ [41] "mean_X470.425.nm" "mean_X472.277.nm" "mean_X474.129.nm" "mean_X475.981.nm" "mean_X477.833.nm"
+ [46] "mean_X479.685.nm" "mean_X481.537.nm" "mean_X483.389.nm" "mean_X485.241.nm" "mean_X487.093.nm"
+ [51] "mean_X488.945.nm" "mean_X490.797.nm" "mean_X492.649.nm" "mean_X494.501.nm" "mean_X496.353.nm"
+ [56] "mean_X498.205.nm" "mean_X500.057.nm" "mean_X501.909.nm" "mean_X503.761.nm" "mean_X505.613.nm"
+ [61] "mean_X507.465.nm" "mean_X509.317.nm" "mean_X511.169.nm" "mean_X513.021.nm" "mean_X514.873.nm"
+ [66] "mean_X516.725.nm" "mean_X518.577.nm" "mean_X520.429.nm" "mean_X522.281.nm" "mean_X524.133.nm"
+ [71] "mean_X525.985.nm" "mean_X527.837.nm" "mean_X529.689.nm" "mean_X531.541.nm" "mean_X533.393.nm"
+ [76] "mean_X535.245.nm" "mean_X537.097.nm" "mean_X538.949.nm" "mean_X540.801.nm" "mean_X542.653.nm"
+ [81] "mean_X544.505.nm" "mean_X546.357.nm" "mean_X548.209.nm" "mean_X550.061.nm" "mean_X551.913.nm"
+ [86] "mean_X553.765.nm" "mean_X555.617.nm" "mean_X557.469.nm" "mean_X559.321.nm" "mean_X561.173.nm"
+ [91] "mean_X563.025.nm" "mean_X564.877.nm" "mean_X566.729.nm" "mean_X568.581.nm" "mean_X570.433.nm"
+ [96] "mean_X572.285.nm" "mean_X574.137.nm" "mean_X575.989.nm" "mean_X577.841.nm" "mean_X579.693.nm"
+[101] "mean_X581.545.nm" "mean_X583.397.nm" "mean_X585.249.nm" "mean_X587.101.nm" "mean_X588.953.nm"
+[106] "mean_X590.805.nm" "mean_X592.657.nm" "mean_X594.509.nm" "mean_X596.361.nm" "mean_X598.213.nm"
+[111] "mean_X600.065.nm" "mean_X601.917.nm" "mean_X603.769.nm" "mean_X605.621.nm" "mean_X607.473.nm"
+[116] "mean_X609.325.nm" "mean_X611.177.nm" "mean_X613.029.nm" "mean_X614.881.nm" "mean_X616.733.nm"
+[121] "mean_X618.585.nm" "mean_X620.437.nm" "mean_X622.289.nm" "mean_X624.141.nm" "mean_X625.993.nm"
+[126] "mean_X627.845.nm" "mean_X629.697.nm" "mean_X631.549.nm" "mean_X633.401.nm" "mean_X635.253.nm"
+[131] "mean_X637.105.nm" "mean_X638.957.nm" "mean_X640.809.nm" "mean_X642.661.nm" "mean_X644.513.nm"
+[136] "mean_X646.365.nm" "mean_X648.217.nm" "mean_X650.069.nm" "mean_X651.921.nm" "mean_X653.773.nm"
+[141] "mean_X655.625.nm" "mean_X657.477.nm" "mean_X659.329.nm" "mean_X661.181.nm" "mean_X663.033.nm"
+[146] "mean_X664.885.nm" "mean_X666.737.nm" "mean_X668.589.nm" "mean_X670.441.nm" "mean_X672.293.nm"
+[151] "mean_X674.145.nm" "mean_X675.997.nm" "mean_X677.849.nm" "mean_X679.701.nm" "mean_X681.553.nm"
+[156] "mean_X683.405.nm" "mean_X685.257.nm" "mean_X687.109.nm" "mean_X688.961.nm" "mean_X690.813.nm"
+[161] "mean_X692.665.nm" "mean_X694.517.nm" "mean_X696.369.nm" "mean_X698.221.nm" "mean_X700.073.nm"
+[166] "mean_X701.925.nm" "mean_X703.777.nm" "mean_X705.629.nm" "mean_X707.481.nm" "mean_X709.333.nm"
+[171] "mean_X711.185.nm" "mean_X713.037.nm" "mean_X714.889.nm" "mean_X716.741.nm" "mean_X718.593.nm"
+[176] "mean_X720.445.nm" "mean_X722.297.nm" "mean_X724.149.nm" "mean_X726.001.nm" "mean_X727.853.nm"
+[181] "mean_X729.705.nm" "mean_X731.557.nm" "mean_X733.409.nm" "mean_X735.261.nm" "mean_X737.113.nm"
+[186] "mean_X738.965.nm" "mean_X740.817.nm" "mean_X742.669.nm" "mean_X744.521.nm" "mean_X746.373.nm"
+[191] "mean_X748.225.nm" "mean_X750.077.nm" "mean_X751.929.nm" "mean_X753.781.nm" "mean_X755.633.nm"
+[196] "mean_X757.485.nm" "mean_X759.337.nm" "mean_X761.189.nm" "mean_X763.041.nm" "mean_X764.893.nm"
+[201] "mean_X766.745.nm" "mean_X768.597.nm" "mean_X770.449.nm" "mean_X772.301.nm" "mean_X774.153.nm"
+[206] "mean_X776.005.nm" "mean_X777.857.nm" "mean_X779.709.nm" "mean_X781.561.nm" "mean_X783.413.nm"
+[211] "mean_X785.265.nm" "mean_X787.117.nm" "mean_X788.969.nm" "mean_X790.821.nm" "mean_X792.673.nm"
+[216] "mean_X794.525.nm" "mean_X796.377.nm" "mean_X798.229.nm" "mean_X800.081.nm" "mean_X801.933.nm"
+[221] "mean_X803.785.nm" "mean_X805.637.nm" "mean_X807.489.nm" "mean_X809.341.nm" "mean_X811.193.nm"
+[226] "mean_X813.045.nm" "mean_X814.897.nm" "mean_X816.749.nm" "mean_X818.601.nm" "mean_X820.453.nm"
+[231] "mean_X822.305.nm" "mean_X824.157.nm" "mean_X826.009.nm" "mean_X827.861.nm" "mean_X829.713.nm"
+[236] "mean_X831.565.nm" "mean_X833.417.nm" "mean_X835.269.nm" "mean_X837.121.nm" "mean_X838.973.nm"
+[241] "mean_X840.825.nm" "mean_X842.677.nm" "mean_X844.529.nm" "mean_X846.381.nm" "mean_X848.233.nm"
+[246] "mean_X850.085.nm" "mean_X851.937.nm" "mean_X853.789.nm" "mean_X855.641.nm" "mean_X857.493.nm"
+[251] "mean_X859.345.nm" "mean_X861.197.nm" "mean_X863.049.nm" "mean_X864.901.nm" "mean_X866.753.nm"
+[256] "mean_X868.605.nm" "mean_X870.457.nm" "mean_X872.309.nm" "mean_X874.161.nm" "mean_X876.013.nm"
+[261] "mean_X877.865.nm" "mean_X879.717.nm" "mean_X881.569.nm" "mean_X883.421.nm" "mean_X885.273.nm"
+[266] "mean_X887.125.nm" "mean_X888.977.nm" "mean_X890.829.nm" "mean_X892.681.nm" "mean_X894.533.nm"
+[271] "mean_X896.385.nm" "mean_X898.237.nm" "mean_X900.089.nm" "mean_X901.941.nm" "mean_X903.793.nm"
+[276] "mean_X905.645.nm" "mean_X907.497.nm" "mean_X909.349.nm" "mean_X911.201.nm" "mean_X913.053.nm"
+[281] "mean_X914.905.nm" "mean_X916.757.nm" "mean_X918.609.nm" "mean_X920.461.nm" "mean_X922.313.nm"
+[286] "mean_X924.165.nm" "mean_X926.017.nm" "mean_X927.869.nm" "mean_X929.721.nm" "mean_X931.573.nm"
+[291] "mean_X933.425.nm" "mean_X935.277.nm" "mean_X937.129.nm" "mean_X938.981.nm" "mean_X940.833.nm"
+[296] "mean_X942.685.nm" "mean_X944.537.nm" "mean_X946.389.nm" "mean_X948.241.nm" "mean_X950.093.nm"
+[301] "mean_X951.945.nm" "mean_X953.797.nm" "mean_X955.649.nm" "mean_X957.501.nm" "mean_X959.353.nm"
+[306] "mean_X961.205.nm" "mean_X963.057.nm" "mean_X964.909.nm" "mean_X966.761.nm" "mean_X968.613.nm"
+[311] "mean_X970.465.nm" "mean_X972.317.nm" "mean_X974.169.nm" "mean_X976.021.nm" "mean_X977.873.nm"
+[316] "mean_X979.725.nm" "mean_X981.577.nm" "mean_X983.429.nm" "mean_X985.281.nm" "mean_X987.133.nm"
+[321] "mean_X988.985.nm" "mean_X990.837.nm" "mean_X992.689.nm" "mean_X994.541.nm" "mean_X996.393.nm"
+[326] "mean_X998.245.nm" "mean_X1000.1.nm"  "mean_X1001.95.nm" "count"           
+  [1] "TreeID"           "SpeciesID"        "mean_X400.049.nm" "mean_X401.901.nm" "mean_X403.753.nm"
+  [6] "mean_X405.605.nm" "mean_X407.457.nm" "mean_X409.309.nm" "mean_X411.161.nm" "mean_X413.013.nm"
+ [11] "mean_X414.865.nm" "mean_X416.717.nm" "mean_X418.569.nm" "mean_X420.421.nm" "mean_X422.273.nm"
+ [16] "mean_X424.125.nm" "mean_X425.977.nm" "mean_X427.829.nm" "mean_X429.681.nm" "mean_X431.533.nm"
+ [21] "mean_X433.385.nm" "mean_X435.237.nm" "mean_X437.089.nm" "mean_X438.941.nm" "mean_X440.793.nm"
+ [26] "mean_X442.645.nm" "mean_X444.497.nm" "mean_X446.349.nm" "mean_X448.201.nm" "mean_X450.053.nm"
+ [31] "mean_X451.905.nm" "mean_X453.757.nm" "mean_X455.609.nm" "mean_X457.461.nm" "mean_X459.313.nm"
+ [36] "mean_X461.165.nm" "mean_X463.017.nm" "mean_X464.869.nm" "mean_X466.721.nm" "mean_X468.573.nm"
+ [41] "mean_X470.425.nm" "mean_X472.277.nm" "mean_X474.129.nm" "mean_X475.981.nm" "mean_X477.833.nm"
+ [46] "mean_X479.685.nm" "mean_X481.537.nm" "mean_X483.389.nm" "mean_X485.241.nm" "mean_X487.093.nm"
+ [51] "mean_X488.945.nm" "mean_X490.797.nm" "mean_X492.649.nm" "mean_X494.501.nm" "mean_X496.353.nm"
+ [56] "mean_X498.205.nm" "mean_X500.057.nm" "mean_X501.909.nm" "mean_X503.761.nm" "mean_X505.613.nm"
+ [61] "mean_X507.465.nm" "mean_X509.317.nm" "mean_X511.169.nm" "mean_X513.021.nm" "mean_X514.873.nm"
+ [66] "mean_X516.725.nm" "mean_X518.577.nm" "mean_X520.429.nm" "mean_X522.281.nm" "mean_X524.133.nm"
+ [71] "mean_X525.985.nm" "mean_X527.837.nm" "mean_X529.689.nm" "mean_X531.541.nm" "mean_X533.393.nm"
+ [76] "mean_X535.245.nm" "mean_X537.097.nm" "mean_X538.949.nm" "mean_X540.801.nm" "mean_X542.653.nm"
+ [81] "mean_X544.505.nm" "mean_X546.357.nm" "mean_X548.209.nm" "mean_X550.061.nm" "mean_X551.913.nm"
+ [86] "mean_X553.765.nm" "mean_X555.617.nm" "mean_X557.469.nm" "mean_X559.321.nm" "mean_X561.173.nm"
+ [91] "mean_X563.025.nm" "mean_X564.877.nm" "mean_X566.729.nm" "mean_X568.581.nm" "mean_X570.433.nm"
+ [96] "mean_X572.285.nm" "mean_X574.137.nm" "mean_X575.989.nm" "mean_X577.841.nm" "mean_X579.693.nm"
+[101] "mean_X581.545.nm" "mean_X583.397.nm" "mean_X585.249.nm" "mean_X587.101.nm" "mean_X588.953.nm"
+[106] "mean_X590.805.nm" "mean_X592.657.nm" "mean_X594.509.nm" "mean_X596.361.nm" "mean_X598.213.nm"
+[111] "mean_X600.065.nm" "mean_X601.917.nm" "mean_X603.769.nm" "mean_X605.621.nm" "mean_X607.473.nm"
+[116] "mean_X609.325.nm" "mean_X611.177.nm" "mean_X613.029.nm" "mean_X614.881.nm" "mean_X616.733.nm"
+[121] "mean_X618.585.nm" "mean_X620.437.nm" "mean_X622.289.nm" "mean_X624.141.nm" "mean_X625.993.nm"
+[126] "mean_X627.845.nm" "mean_X629.697.nm" "mean_X631.549.nm" "mean_X633.401.nm" "mean_X635.253.nm"
+[131] "mean_X637.105.nm" "mean_X638.957.nm" "mean_X640.809.nm" "mean_X642.661.nm" "mean_X644.513.nm"
+[136] "mean_X646.365.nm" "mean_X648.217.nm" "mean_X650.069.nm" "mean_X651.921.nm" "mean_X653.773.nm"
+[141] "mean_X655.625.nm" "mean_X657.477.nm" "mean_X659.329.nm" "mean_X661.181.nm" "mean_X663.033.nm"
+[146] "mean_X664.885.nm" "mean_X666.737.nm" "mean_X668.589.nm" "mean_X670.441.nm" "mean_X672.293.nm"
+[151] "mean_X674.145.nm" "mean_X675.997.nm" "mean_X677.849.nm" "mean_X679.701.nm" "mean_X681.553.nm"
+[156] "mean_X683.405.nm" "mean_X685.257.nm" "mean_X687.109.nm" "mean_X688.961.nm" "mean_X690.813.nm"
+[161] "mean_X692.665.nm" "mean_X694.517.nm" "mean_X696.369.nm" "mean_X698.221.nm" "mean_X700.073.nm"
+[166] "mean_X701.925.nm" "mean_X703.777.nm" "mean_X705.629.nm" "mean_X707.481.nm" "mean_X709.333.nm"
+[171] "mean_X711.185.nm" "mean_X713.037.nm" "mean_X714.889.nm" "mean_X716.741.nm" "mean_X718.593.nm"
+[176] "mean_X720.445.nm" "mean_X722.297.nm" "mean_X724.149.nm" "mean_X726.001.nm" "mean_X727.853.nm"
+[181] "mean_X729.705.nm" "mean_X731.557.nm" "mean_X733.409.nm" "mean_X735.261.nm" "mean_X737.113.nm"
+[186] "mean_X738.965.nm" "mean_X740.817.nm" "mean_X742.669.nm" "mean_X744.521.nm" "mean_X746.373.nm"
+[191] "mean_X748.225.nm" "mean_X750.077.nm" "mean_X751.929.nm" "mean_X753.781.nm" "mean_X755.633.nm"
+[196] "mean_X757.485.nm" "mean_X759.337.nm" "mean_X761.189.nm" "mean_X763.041.nm" "mean_X764.893.nm"
+[201] "mean_X766.745.nm" "mean_X768.597.nm" "mean_X770.449.nm" "mean_X772.301.nm" "mean_X774.153.nm"
+[206] "mean_X776.005.nm" "mean_X777.857.nm" "mean_X779.709.nm" "mean_X781.561.nm" "mean_X783.413.nm"
+[211] "mean_X785.265.nm" "mean_X787.117.nm" "mean_X788.969.nm" "mean_X790.821.nm" "mean_X792.673.nm"
+[216] "mean_X794.525.nm" "mean_X796.377.nm" "mean_X798.229.nm" "mean_X800.081.nm" "mean_X801.933.nm"
+[221] "mean_X803.785.nm" "mean_X805.637.nm" "mean_X807.489.nm" "mean_X809.341.nm" "mean_X811.193.nm"
+[226] "mean_X813.045.nm" "mean_X814.897.nm" "mean_X816.749.nm" "mean_X818.601.nm" "mean_X820.453.nm"
+[231] "mean_X822.305.nm" "mean_X824.157.nm" "mean_X826.009.nm" "mean_X827.861.nm" "mean_X829.713.nm"
+[236] "mean_X831.565.nm" "mean_X833.417.nm" "mean_X835.269.nm" "mean_X837.121.nm" "mean_X838.973.nm"
+[241] "mean_X840.825.nm" "mean_X842.677.nm" "mean_X844.529.nm" "mean_X846.381.nm" "mean_X848.233.nm"
+[246] "mean_X850.085.nm" "mean_X851.937.nm" "mean_X853.789.nm" "mean_X855.641.nm" "mean_X857.493.nm"
+[251] "mean_X859.345.nm" "mean_X861.197.nm" "mean_X863.049.nm" "mean_X864.901.nm" "mean_X866.753.nm"
+[256] "mean_X868.605.nm" "mean_X870.457.nm" "mean_X872.309.nm" "mean_X874.161.nm" "mean_X876.013.nm"
+[261] "mean_X877.865.nm" "mean_X879.717.nm" "mean_X881.569.nm" "mean_X883.421.nm" "mean_X885.273.nm"
+[266] "mean_X887.125.nm" "mean_X888.977.nm" "mean_X890.829.nm" "mean_X892.681.nm" "mean_X894.533.nm"
+[271] "mean_X896.385.nm" "mean_X898.237.nm" "mean_X900.089.nm" "mean_X901.941.nm" "mean_X903.793.nm"
+[276] "mean_X905.645.nm" "mean_X907.497.nm" "mean_X909.349.nm" "mean_X911.201.nm" "mean_X913.053.nm"
+[281] "mean_X914.905.nm" "mean_X916.757.nm" "mean_X918.609.nm" "mean_X920.461.nm" "mean_X922.313.nm"
+[286] "mean_X924.165.nm" "mean_X926.017.nm" "mean_X927.869.nm" "mean_X929.721.nm" "mean_X931.573.nm"
+[291] "mean_X933.425.nm" "mean_X935.277.nm" "mean_X937.129.nm" "mean_X938.981.nm" "mean_X940.833.nm"
+[296] "mean_X942.685.nm" "mean_X944.537.nm" "mean_X946.389.nm" "mean_X948.241.nm" "mean_X950.093.nm"
+[301] "mean_X951.945.nm" "mean_X953.797.nm" "mean_X955.649.nm" "mean_X957.501.nm" "mean_X959.353.nm"
+[306] "mean_X961.205.nm" "mean_X963.057.nm" "mean_X964.909.nm" "mean_X966.761.nm" "mean_X968.613.nm"
+[311] "mean_X970.465.nm" "mean_X972.317.nm" "mean_X974.169.nm" "mean_X976.021.nm" "mean_X977.873.nm"
+[316] "mean_X979.725.nm" "mean_X981.577.nm" "mean_X983.429.nm" "mean_X985.281.nm" "mean_X987.133.nm"
+[321] "mean_X988.985.nm" "mean_X990.837.nm" "mean_X992.689.nm" "mean_X994.541.nm" "mean_X996.393.nm"
+[326] "mean_X998.245.nm" "mean_X1000.1.nm"  "mean_X1001.95.nm" "count"           
+                 col
+1             TreeID
+2          SpeciesID
+3   mean_X400.049.nm
+4   mean_X401.901.nm
+5   mean_X403.753.nm
+6   mean_X405.605.nm
+7   mean_X407.457.nm
+8   mean_X409.309.nm
+9   mean_X411.161.nm
+10  mean_X413.013.nm
+11  mean_X414.865.nm
+12  mean_X416.717.nm
+13  mean_X418.569.nm
+14  mean_X420.421.nm
+15  mean_X422.273.nm
+16  mean_X424.125.nm
+17  mean_X425.977.nm
+18  mean_X427.829.nm
+19  mean_X429.681.nm
+20  mean_X431.533.nm
+21  mean_X433.385.nm
+22  mean_X435.237.nm
+23  mean_X437.089.nm
+24  mean_X438.941.nm
+25  mean_X440.793.nm
+26  mean_X442.645.nm
+27  mean_X444.497.nm
+28  mean_X446.349.nm
+29  mean_X448.201.nm
+30  mean_X450.053.nm
+31  mean_X451.905.nm
+32  mean_X453.757.nm
+33  mean_X455.609.nm
+34  mean_X457.461.nm
+35  mean_X459.313.nm
+36  mean_X461.165.nm
+37  mean_X463.017.nm
+38  mean_X464.869.nm
+39  mean_X466.721.nm
+40  mean_X468.573.nm
+41  mean_X470.425.nm
+42  mean_X472.277.nm
+43  mean_X474.129.nm
+44  mean_X475.981.nm
+45  mean_X477.833.nm
+46  mean_X479.685.nm
+47  mean_X481.537.nm
+48  mean_X483.389.nm
+49  mean_X485.241.nm
+50  mean_X487.093.nm
+51  mean_X488.945.nm
+52  mean_X490.797.nm
+53  mean_X492.649.nm
+54  mean_X494.501.nm
+55  mean_X496.353.nm
+56  mean_X498.205.nm
+57  mean_X500.057.nm
+58  mean_X501.909.nm
+59  mean_X503.761.nm
+60  mean_X505.613.nm
+61  mean_X507.465.nm
+62  mean_X509.317.nm
+63  mean_X511.169.nm
+64  mean_X513.021.nm
+65  mean_X514.873.nm
+66  mean_X516.725.nm
+67  mean_X518.577.nm
+68  mean_X520.429.nm
+69  mean_X522.281.nm
+70  mean_X524.133.nm
+71  mean_X525.985.nm
+72  mean_X527.837.nm
+73  mean_X529.689.nm
+74  mean_X531.541.nm
+75  mean_X533.393.nm
+76  mean_X535.245.nm
+77  mean_X537.097.nm
+78  mean_X538.949.nm
+79  mean_X540.801.nm
+80  mean_X542.653.nm
+81  mean_X544.505.nm
+82  mean_X546.357.nm
+83  mean_X548.209.nm
+84  mean_X550.061.nm
+85  mean_X551.913.nm
+86  mean_X553.765.nm
+87  mean_X555.617.nm
+88  mean_X557.469.nm
+89  mean_X559.321.nm
+90  mean_X561.173.nm
+91  mean_X563.025.nm
+92  mean_X564.877.nm
+93  mean_X566.729.nm
+94  mean_X568.581.nm
+95  mean_X570.433.nm
+96  mean_X572.285.nm
+97  mean_X574.137.nm
+98  mean_X575.989.nm
+99  mean_X577.841.nm
+100 mean_X579.693.nm
+101 mean_X581.545.nm
+102 mean_X583.397.nm
+103 mean_X585.249.nm
+104 mean_X587.101.nm
+105 mean_X588.953.nm
+106 mean_X590.805.nm
+107 mean_X592.657.nm
+108 mean_X594.509.nm
+109 mean_X596.361.nm
+110 mean_X598.213.nm
+111 mean_X600.065.nm
+112 mean_X601.917.nm
+113 mean_X603.769.nm
+114 mean_X605.621.nm
+115 mean_X607.473.nm
+116 mean_X609.325.nm
+117 mean_X611.177.nm
+118 mean_X613.029.nm
+119 mean_X614.881.nm
+120 mean_X616.733.nm
+121 mean_X618.585.nm
+122 mean_X620.437.nm
+123 mean_X622.289.nm
+124 mean_X624.141.nm
+125 mean_X625.993.nm
+126 mean_X627.845.nm
+127 mean_X629.697.nm
+128 mean_X631.549.nm
+129 mean_X633.401.nm
+130 mean_X635.253.nm
+131 mean_X637.105.nm
+132 mean_X638.957.nm
+133 mean_X640.809.nm
+134 mean_X642.661.nm
+135 mean_X644.513.nm
+136 mean_X646.365.nm
+137 mean_X648.217.nm
+138 mean_X650.069.nm
+139 mean_X651.921.nm
+140 mean_X653.773.nm
+141 mean_X655.625.nm
+142 mean_X657.477.nm
+143 mean_X659.329.nm
+144 mean_X661.181.nm
+145 mean_X663.033.nm
+146 mean_X664.885.nm
+147 mean_X666.737.nm
+148 mean_X668.589.nm
+149 mean_X670.441.nm
+150 mean_X672.293.nm
+151 mean_X674.145.nm
+152 mean_X675.997.nm
+153 mean_X677.849.nm
+154 mean_X679.701.nm
+155 mean_X681.553.nm
+156 mean_X683.405.nm
+157 mean_X685.257.nm
+158 mean_X687.109.nm
+159 mean_X688.961.nm
+160 mean_X690.813.nm
+161 mean_X692.665.nm
+162 mean_X694.517.nm
+163 mean_X696.369.nm
+164 mean_X698.221.nm
+165 mean_X700.073.nm
+166 mean_X701.925.nm
+167 mean_X703.777.nm
+168 mean_X705.629.nm
+169 mean_X707.481.nm
+170 mean_X709.333.nm
+171 mean_X711.185.nm
+172 mean_X713.037.nm
+173 mean_X714.889.nm
+174 mean_X716.741.nm
+175 mean_X718.593.nm
+176 mean_X720.445.nm
+177 mean_X722.297.nm
+178 mean_X724.149.nm
+179 mean_X726.001.nm
+180 mean_X727.853.nm
+181 mean_X729.705.nm
+182 mean_X731.557.nm
+183 mean_X733.409.nm
+184 mean_X735.261.nm
+185 mean_X737.113.nm
+186 mean_X738.965.nm
+187 mean_X740.817.nm
+188 mean_X742.669.nm
+189 mean_X744.521.nm
+190 mean_X746.373.nm
+191 mean_X748.225.nm
+192 mean_X750.077.nm
+193 mean_X751.929.nm
+194 mean_X753.781.nm
+195 mean_X755.633.nm
+196 mean_X757.485.nm
+197 mean_X759.337.nm
+198 mean_X761.189.nm
+199 mean_X763.041.nm
+200 mean_X764.893.nm
+201 mean_X766.745.nm
+202 mean_X768.597.nm
+203 mean_X770.449.nm
+204 mean_X772.301.nm
+205 mean_X774.153.nm
+206 mean_X776.005.nm
+207 mean_X777.857.nm
+208 mean_X779.709.nm
+209 mean_X781.561.nm
+210 mean_X783.413.nm
+211 mean_X785.265.nm
+212 mean_X787.117.nm
+213 mean_X788.969.nm
+214 mean_X790.821.nm
+215 mean_X792.673.nm
+216 mean_X794.525.nm
+217 mean_X796.377.nm
+218 mean_X798.229.nm
+219 mean_X800.081.nm
+220 mean_X801.933.nm
+221 mean_X803.785.nm
+222 mean_X805.637.nm
+223 mean_X807.489.nm
+224 mean_X809.341.nm
+225 mean_X811.193.nm
+226 mean_X813.045.nm
+227 mean_X814.897.nm
+228 mean_X816.749.nm
+229 mean_X818.601.nm
+230 mean_X820.453.nm
+231 mean_X822.305.nm
+232 mean_X824.157.nm
+233 mean_X826.009.nm
+234 mean_X827.861.nm
+235 mean_X829.713.nm
+236 mean_X831.565.nm
+237 mean_X833.417.nm
+238 mean_X835.269.nm
+239 mean_X837.121.nm
+240 mean_X838.973.nm
+241 mean_X840.825.nm
+242 mean_X842.677.nm
+243 mean_X844.529.nm
+244 mean_X846.381.nm
+245 mean_X848.233.nm
+246 mean_X850.085.nm
+247 mean_X851.937.nm
+248 mean_X853.789.nm
+249 mean_X855.641.nm
+250 mean_X857.493.nm
+251 mean_X859.345.nm
+252 mean_X861.197.nm
+253 mean_X863.049.nm
+254 mean_X864.901.nm
+255 mean_X866.753.nm
+256 mean_X868.605.nm
+257 mean_X870.457.nm
+258 mean_X872.309.nm
+259 mean_X874.161.nm
+260 mean_X876.013.nm
+261 mean_X877.865.nm
+262 mean_X879.717.nm
+263 mean_X881.569.nm
+264 mean_X883.421.nm
+265 mean_X885.273.nm
+266 mean_X887.125.nm
+267 mean_X888.977.nm
+268 mean_X890.829.nm
+269 mean_X892.681.nm
+270 mean_X894.533.nm
+271 mean_X896.385.nm
+272 mean_X898.237.nm
+273 mean_X900.089.nm
+274 mean_X901.941.nm
+275 mean_X903.793.nm
+276 mean_X905.645.nm
+277 mean_X907.497.nm
+278 mean_X909.349.nm
+279 mean_X911.201.nm
+280 mean_X913.053.nm
+281 mean_X914.905.nm
+282 mean_X916.757.nm
+283 mean_X918.609.nm
+284 mean_X920.461.nm
+285 mean_X922.313.nm
+286 mean_X924.165.nm
+287 mean_X926.017.nm
+288 mean_X927.869.nm
+289 mean_X929.721.nm
+290 mean_X931.573.nm
+291 mean_X933.425.nm
+292 mean_X935.277.nm
+293 mean_X937.129.nm
+294 mean_X938.981.nm
+295 mean_X940.833.nm
+296 mean_X942.685.nm
+297 mean_X944.537.nm
+298 mean_X946.389.nm
+299 mean_X948.241.nm
+300 mean_X950.093.nm
+301 mean_X951.945.nm
+302 mean_X953.797.nm
+303 mean_X955.649.nm
+304 mean_X957.501.nm
+305 mean_X959.353.nm
+306 mean_X961.205.nm
+307 mean_X963.057.nm
+308 mean_X964.909.nm
+309 mean_X966.761.nm
+310 mean_X968.613.nm
+311 mean_X970.465.nm
+312 mean_X972.317.nm
+313 mean_X974.169.nm
+314 mean_X976.021.nm
+315 mean_X977.873.nm
+316 mean_X979.725.nm
+317 mean_X981.577.nm
+318 mean_X983.429.nm
+319 mean_X985.281.nm
+320 mean_X987.133.nm
+321 mean_X988.985.nm
+322 mean_X990.837.nm
+323 mean_X992.689.nm
+324 mean_X994.541.nm
+325 mean_X996.393.nm
+326 mean_X998.245.nm
+327  mean_X1000.1.nm
+328 mean_X1001.95.nm
+329            count
+  [1] "TreeID"           "SpeciesID"        "mean_X400.049.nm" "mean_X401.901.nm" "mean_X403.753.nm"
+  [6] "mean_X405.605.nm" "mean_X407.457.nm" "mean_X409.309.nm" "mean_X411.161.nm" "mean_X413.013.nm"
+ [11] "mean_X414.865.nm" "mean_X416.717.nm" "mean_X418.569.nm" "mean_X420.421.nm" "mean_X422.273.nm"
+ [16] "mean_X424.125.nm" "mean_X425.977.nm" "mean_X427.829.nm" "mean_X429.681.nm" "mean_X431.533.nm"
+ [21] "mean_X433.385.nm" "mean_X435.237.nm" "mean_X437.089.nm" "mean_X438.941.nm" "mean_X440.793.nm"
+ [26] "mean_X442.645.nm" "mean_X444.497.nm" "mean_X446.349.nm" "mean_X448.201.nm" "mean_X450.053.nm"
+ [31] "mean_X451.905.nm" "mean_X453.757.nm" "mean_X455.609.nm" "mean_X457.461.nm" "mean_X459.313.nm"
+ [36] "mean_X461.165.nm" "mean_X463.017.nm" "mean_X464.869.nm" "mean_X466.721.nm" "mean_X468.573.nm"
+ [41] "mean_X470.425.nm" "mean_X472.277.nm" "mean_X474.129.nm" "mean_X475.981.nm" "mean_X477.833.nm"
+ [46] "mean_X479.685.nm" "mean_X481.537.nm" "mean_X483.389.nm" "mean_X485.241.nm" "mean_X487.093.nm"
+ [51] "mean_X488.945.nm" "mean_X490.797.nm" "mean_X492.649.nm" "mean_X494.501.nm" "mean_X496.353.nm"
+ [56] "mean_X498.205.nm" "mean_X500.057.nm" "mean_X501.909.nm" "mean_X503.761.nm" "mean_X505.613.nm"
+ [61] "mean_X507.465.nm" "mean_X509.317.nm" "mean_X511.169.nm" "mean_X513.021.nm" "mean_X514.873.nm"
+ [66] "mean_X516.725.nm" "mean_X518.577.nm" "mean_X520.429.nm" "mean_X522.281.nm" "mean_X524.133.nm"
+ [71] "mean_X525.985.nm" "mean_X527.837.nm" "mean_X529.689.nm" "mean_X531.541.nm" "mean_X533.393.nm"
+ [76] "mean_X535.245.nm" "mean_X537.097.nm" "mean_X538.949.nm" "mean_X540.801.nm" "mean_X542.653.nm"
+ [81] "mean_X544.505.nm" "mean_X546.357.nm" "mean_X548.209.nm" "mean_X550.061.nm" "mean_X551.913.nm"
+ [86] "mean_X553.765.nm" "mean_X555.617.nm" "mean_X557.469.nm" "mean_X559.321.nm" "mean_X561.173.nm"
+ [91] "mean_X563.025.nm" "mean_X564.877.nm" "mean_X566.729.nm" "mean_X568.581.nm" "mean_X570.433.nm"
+ [96] "mean_X572.285.nm" "mean_X574.137.nm" "mean_X575.989.nm" "mean_X577.841.nm" "mean_X579.693.nm"
+[101] "mean_X581.545.nm" "mean_X583.397.nm" "mean_X585.249.nm" "mean_X587.101.nm" "mean_X588.953.nm"
+[106] "mean_X590.805.nm" "mean_X592.657.nm" "mean_X594.509.nm" "mean_X596.361.nm" "mean_X598.213.nm"
+[111] "mean_X600.065.nm" "mean_X601.917.nm" "mean_X603.769.nm" "mean_X605.621.nm" "mean_X607.473.nm"
+[116] "mean_X609.325.nm" "mean_X611.177.nm" "mean_X613.029.nm" "mean_X614.881.nm" "mean_X616.733.nm"
+[121] "mean_X618.585.nm" "mean_X620.437.nm" "mean_X622.289.nm" "mean_X624.141.nm" "mean_X625.993.nm"
+[126] "mean_X627.845.nm" "mean_X629.697.nm" "mean_X631.549.nm" "mean_X633.401.nm" "mean_X635.253.nm"
+[131] "mean_X637.105.nm" "mean_X638.957.nm" "mean_X640.809.nm" "mean_X642.661.nm" "mean_X644.513.nm"
+[136] "mean_X646.365.nm" "mean_X648.217.nm" "mean_X650.069.nm" "mean_X651.921.nm" "mean_X653.773.nm"
+[141] "mean_X655.625.nm" "mean_X657.477.nm" "mean_X659.329.nm" "mean_X661.181.nm" "mean_X663.033.nm"
+[146] "mean_X664.885.nm" "mean_X666.737.nm" "mean_X668.589.nm" "mean_X670.441.nm" "mean_X672.293.nm"
+[151] "mean_X674.145.nm" "mean_X675.997.nm" "mean_X677.849.nm" "mean_X679.701.nm" "mean_X681.553.nm"
+[156] "mean_X683.405.nm" "mean_X685.257.nm" "mean_X687.109.nm" "mean_X688.961.nm" "mean_X690.813.nm"
+[161] "mean_X692.665.nm" "mean_X694.517.nm" "mean_X696.369.nm" "mean_X698.221.nm" "mean_X700.073.nm"
+[166] "mean_X701.925.nm" "mean_X703.777.nm" "mean_X705.629.nm" "mean_X707.481.nm" "mean_X709.333.nm"
+[171] "mean_X711.185.nm" "mean_X713.037.nm" "mean_X714.889.nm" "mean_X716.741.nm" "mean_X718.593.nm"
+[176] "mean_X720.445.nm" "mean_X722.297.nm" "mean_X724.149.nm" "mean_X726.001.nm" "mean_X727.853.nm"
+[181] "mean_X729.705.nm" "mean_X731.557.nm" "mean_X733.409.nm" "mean_X735.261.nm" "mean_X737.113.nm"
+[186] "mean_X738.965.nm" "mean_X740.817.nm" "mean_X742.669.nm" "mean_X744.521.nm" "mean_X746.373.nm"
+[191] "mean_X748.225.nm" "mean_X750.077.nm" "mean_X751.929.nm" "mean_X753.781.nm" "mean_X755.633.nm"
+[196] "mean_X757.485.nm" "mean_X759.337.nm" "mean_X761.189.nm" "mean_X763.041.nm" "mean_X764.893.nm"
+[201] "mean_X766.745.nm" "mean_X768.597.nm" "mean_X770.449.nm" "mean_X772.301.nm" "mean_X774.153.nm"
+[206] "mean_X776.005.nm" "mean_X777.857.nm" "mean_X779.709.nm" "mean_X781.561.nm" "mean_X783.413.nm"
+[211] "mean_X785.265.nm" "mean_X787.117.nm" "mean_X788.969.nm" "mean_X790.821.nm" "mean_X792.673.nm"
+[216] "mean_X794.525.nm" "mean_X796.377.nm" "mean_X798.229.nm" "mean_X800.081.nm" "mean_X801.933.nm"
+[221] "mean_X803.785.nm" "mean_X805.637.nm" "mean_X807.489.nm" "mean_X809.341.nm" "mean_X811.193.nm"
+[226] "mean_X813.045.nm" "mean_X814.897.nm" "mean_X816.749.nm" "mean_X818.601.nm" "mean_X820.453.nm"
+[231] "mean_X822.305.nm" "mean_X824.157.nm" "mean_X826.009.nm" "mean_X827.861.nm" "mean_X829.713.nm"
+[236] "mean_X831.565.nm" "mean_X833.417.nm" "mean_X835.269.nm" "mean_X837.121.nm" "mean_X838.973.nm"
+[241] "mean_X840.825.nm" "mean_X842.677.nm" "mean_X844.529.nm" "mean_X846.381.nm" "mean_X848.233.nm"
+[246] "mean_X850.085.nm" "mean_X851.937.nm" "mean_X853.789.nm" "mean_X855.641.nm" "mean_X857.493.nm"
+[251] "mean_X859.345.nm" "mean_X861.197.nm" "mean_X863.049.nm" "mean_X864.901.nm" "mean_X866.753.nm"
+[256] "mean_X868.605.nm" "mean_X870.457.nm" "mean_X872.309.nm" "mean_X874.161.nm" "mean_X876.013.nm"
+[261] "mean_X877.865.nm" "mean_X879.717.nm" "mean_X881.569.nm" "mean_X883.421.nm" "mean_X885.273.nm"
+[266] "mean_X887.125.nm" "mean_X888.977.nm" "mean_X890.829.nm" "mean_X892.681.nm" "mean_X894.533.nm"
+[271] "mean_X896.385.nm" "mean_X898.237.nm" "mean_X900.089.nm" "mean_X901.941.nm" "mean_X903.793.nm"
+[276] "mean_X905.645.nm" "mean_X907.497.nm" "mean_X909.349.nm" "mean_X911.201.nm" "mean_X913.053.nm"
+[281] "mean_X914.905.nm" "mean_X916.757.nm" "mean_X918.609.nm" "mean_X920.461.nm" "mean_X922.313.nm"
+[286] "mean_X924.165.nm" "mean_X926.017.nm" "mean_X927.869.nm" "mean_X929.721.nm" "mean_X931.573.nm"
+[291] "mean_X933.425.nm" "mean_X935.277.nm" "mean_X937.129.nm" "mean_X938.981.nm" "mean_X940.833.nm"
+[296] "mean_X942.685.nm" "mean_X944.537.nm" "mean_X946.389.nm" "mean_X948.241.nm" "mean_X950.093.nm"
+[301] "mean_X951.945.nm" "mean_X953.797.nm" "mean_X955.649.nm" "mean_X957.501.nm" "mean_X959.353.nm"
+[306] "mean_X961.205.nm" "mean_X963.057.nm" "mean_X964.909.nm" "mean_X966.761.nm" "mean_X968.613.nm"
+[311] "mean_X970.465.nm" "mean_X972.317.nm" "mean_X974.169.nm" "mean_X976.021.nm" "mean_X977.873.nm"
+[316] "mean_X979.725.nm" "mean_X981.577.nm" "mean_X983.429.nm" "mean_X985.281.nm" "mean_X987.133.nm"
+[321] "mean_X988.985.nm" "mean_X990.837.nm" "mean_X992.689.nm" "mean_X994.541.nm" "mean_X996.393.nm"
+[326] "mean_X998.245.nm" "mean_X1000.1.nm"  "mean_X1001.95.nm" "count"           
