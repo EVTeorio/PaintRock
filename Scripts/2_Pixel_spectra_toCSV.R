@@ -1,7 +1,7 @@
 
-source("Functions/lecospectR.R")
-install.packages("RStoolbox")
 setwd("lecospec")
+source("Functions/lecospectR.R")
+
 # Load necessary libraries
 library(raster)
 library(dplyr)
